@@ -1,0 +1,33 @@
+# --- PlatformIO / embedded toolchains ---
+.platformio/
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# --- Python ---
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+dist/
+build/
+.eggs/
+*.egg-info/
+
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# --- IDE ---
+.vscode/
+.history/
+.idea/
+.vs/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
